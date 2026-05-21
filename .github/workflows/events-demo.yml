@@ -3,7 +3,7 @@ name: Demo Eventa
 on:
   push:
     branches:
-      - main
+      - master
       - "feature/**"
     paths:
       - "src/**"
@@ -12,7 +12,7 @@ on:
   pull_request:
     types: [opened, synchronize, closed]
     branches:
-      - main
+      - master
 
   workflow_dispatch:
     inputs:
